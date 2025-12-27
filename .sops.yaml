@@ -1,0 +1,8 @@
+keys:
+  - &host age1latl3tlvcvf445975hd33kzhplxpj0w78em70xzcuh23cch7sqhqg5wmy8
+  - &kyo  age12ehwrgy86umm534yf86nlrv9sf8plyf2jqhr63r66xpz0xvqk37sz6sccl
+creation_rules:
+  - path_regex: modules/secrets/secrets\.yaml$
+    age:
+      - *host
+      - *kyo
