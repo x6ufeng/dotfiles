@@ -9,8 +9,12 @@
   };
 
   programs.git = {
-  enable = true;
-  userName  = "x6ufeng";
-  userEmail = "freddie.hsu@outlook.com";
-};
+    enable = true;
+    settings = {
+      user = {
+        name = "x6ufeng";
+        email = "freddie.hsu@outlook.com";
+      };
+    };
+  };
 }
