@@ -37,7 +37,7 @@
 
   # Containers
   virtualisation.oci-containers.containers."booklore" = {
-    image = "ghcr.io/booklore-app/booklore:latest";
+    image = "ghcr.io/booklore-app/booklore:v1.16.3";
     environment = {
       "BOOKLORE_PORT" = "6060";
       "DATABASE_PASSWORD" = "xufeng233";
