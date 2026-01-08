@@ -6,5 +6,6 @@
   imports = [
     ./settings.nix
     ./networking.nix
+    ./docker.nix
   ];
 }

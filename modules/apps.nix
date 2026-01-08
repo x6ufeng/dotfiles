@@ -8,7 +8,6 @@
   environment.systemPackages = with pkgs; [
     vim
     sops
-    docker-compose
     ssh-to-age
     tree
     neovim

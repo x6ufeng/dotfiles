@@ -3,7 +3,7 @@
     ./tailscale.nix
     ./anki-sync.nix
     ./cloudflared.nix
-    ./booklore.nix
+    ./stirling.nix
     #    ./minecraft.nix
   ];
 }
