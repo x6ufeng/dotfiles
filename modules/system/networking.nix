@@ -5,9 +5,9 @@
 }: {
   # 网络基础配置
   networking = {
-  networkmanager.enable = true;
-  useDHCP = false;
-  nameservers = [ ];
+    networkmanager.enable = true;
+    useDHCP = false;
+    nameservers = [];
     hostName = "nixos";
     firewall = {
       enable = true;
